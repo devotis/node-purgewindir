@@ -1,8 +1,8 @@
 {
   "name": "node-purgewindir",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
-  "description": "A deep deletion module for node (like `rm -rf`)",
+  "description": "Deletes a directory by deleting every subdirectory recursively starting with the deepest nested subdirectories first",
   "author": "Christiaan Westerbeek <chris@devotis.nl>",
   "license": "MIT",
   "repository": "git://github.com/devotis/node-purgewindir.git",

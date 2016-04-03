@@ -1,5 +1,5 @@
 # node-purgewindir
-A small Node.js program that deletes a directory by deleting every subdirectory recusively starting with the deepest nested subdirectories first.
+A small Node.js program that deletes a directory by deleting every subdirectory recursively starting with the deepest nested subdirectories first.
 
 ##Background
 
