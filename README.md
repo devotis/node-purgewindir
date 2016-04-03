@@ -9,10 +9,9 @@ I tried [resetting the owner and inheritable permissions of all sub directories]
 
 Then, I found [this answer on superuser.com](http://superuser.com/a/204934/192974) that actually worked. So I decided to build this program to automate that.
 
-##Install
+##Install and run
 
-...
-
-##Run
-
-...
+1. Create a directory next to the directory you'd like to delete
+2. cd into it
+3. run `npm install purgewindir`
+4. run node node_modules\purgewindir ../name_of_the_directory_you_want_to_delete
