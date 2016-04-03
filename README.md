@@ -15,3 +15,12 @@ Then, I found [this answer on superuser.com](http://superuser.com/a/204934/19297
 2. cd into it
 3. run `npm install purgewindir`
 4. run `node node_modules\purgewindir ../name_of_the_directory_you_want_to_delete`
+
+
+##Delete itself
+
+Finally, you can use this program to delete itself too.
+
+run `node node_modules\purgewindir ./`
+
+After deleting all subdirectory of itself, it'll finally fail on the direcotry itself, but you can delete that one manually.
