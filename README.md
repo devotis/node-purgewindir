@@ -14,4 +14,4 @@ Then, I found [this answer on superuser.com](http://superuser.com/a/204934/19297
 1. Create a directory next to the directory you'd like to delete
 2. cd into it
 3. run `npm install purgewindir`
-4. run node node_modules\purgewindir ../name_of_the_directory_you_want_to_delete
+4. run `node node_modules\purgewindir ../name_of_the_directory_you_want_to_delete`
