@@ -5,6 +5,9 @@ A small Node.js program that deletes a directory by deleting every subdirectory 
 
 I ran into a situation on a Windows 2008R2 machine where I as the owner of the directory with subdirectories, wasn't able to delete that directory.
 
+![Folder Access Denied](./error.png)
+*Folder Access Denied. You'll need to provide administrator permission to delete this folder. And after htting **Continue** -> get You need permission to perform this action.*
+
 I tried [resetting the owner and inheritable permissions of all sub directories](http://www.fixedbyvonnie.com/2014/01/folder-access-denied-delete-folder-windows), but It didn't work for me.
 
 What did work was to delete every subdirectory starting with the deepest nested first as described by [this answer on superuser.com](http://superuser.com/a/204934/192974). I decided to build this program to automate that.
