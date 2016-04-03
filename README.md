@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/purgewindir.svg)](https://www.npmjs.org/package/purgewindir)
+
 # node-purgewindir
 A small Node.js program that deletes a directory by deleting every subdirectory recursively starting with the deepest nested subdirectories first.
 
