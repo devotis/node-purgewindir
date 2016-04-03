@@ -23,4 +23,4 @@ Finally, you can use this program to delete itself too.
 
 run `node node_modules\purgewindir ./`
 
-After deleting all subdirectory of itself, it'll finally fail on the direcotry itself, but you can delete that one manually.
+After deleting all subdirectory of itself, it'll finally fail on the directory itself, but you can delete that one manually.
