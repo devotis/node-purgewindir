@@ -1,0 +1,14 @@
+{
+  "name": "node-purgewindir",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "A deep deletion module for node (like `rm -rf`)",
+  "author": "Christiaan Westerbeek <chris@devotis.nl>",
+  "license": "MIT",
+  "repository": "git://github.com/devotis/node-purgewindir.git",
+  "dependencies": {
+    "async": "^2.0.0-rc.2",
+    "node-dir": "^0.1.11",
+    "rimraf": "^2.5.2"
+  }
+}
